@@ -1,0 +1,118 @@
+.custom-bg-purple {
+  background-image: linear-gradient(
+    135deg,
+    rgb(102, 126, 234) 0%,
+    rgb(118, 75, 162) 100%
+  );
+}
+
+.custom-bt-primary {
+  filter: opacity(88%);
+  color: rgb(255, 255, 255);
+  background-color: rgb(103, 112, 210);
+  border-color: rgb(103, 112, 210);
+}
+
+.custom-bt-primary:hover {
+  filter: opacity(100%);
+  color: rgb(255, 255, 255);
+  background-color: rgb(103, 112, 210);
+  border-color: rgb(103, 112, 210);
+}
+
+.custom-bt-light {
+  filter: opacity(88%);
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(220, 220, 220);
+}
+
+.custom-bt-light:hover {
+  filter: opacity(100%);
+  color: rgb(0, 0, 0);
+  background-color: rgb(247, 247, 247);
+  border-color: rgb(220, 220, 220);
+}
+
+.custom-bt-warning {
+  color: rgb(33, 37, 41);
+  background-color: rgb(247, 185, 36);
+  border-color: rgb(247, 185, 36);
+}
+
+.custom-bt-warning:hover {
+  color: rgb(33, 37, 41);
+  background-color: rgba(247, 184, 36, 0.796);
+  border-color: rgb(247, 185, 36);
+}
+
+.custom-bt-success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 196, 125);
+    border-color: rgb(58, 196, 125);
+}
+
+.custom-bt-success:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 185, 125);
+    border-color: rgb(58, 196, 125);
+}
+
+.custom-button-pagination{
+    cursor: pointer;
+    position: relative;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #6770d2;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+
+ 
+}
+.custom-button-pagination:active{
+  cursor: pointer;
+  position: relative;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #fff;
+  background-color: #6770d2;
+  border-color: #6770d2;
+}
+
+.custom-bt-info{
+  color: #fff;
+  background-color: #16aaff;
+  border-color: #16aaff;
+}
+.custom-bt-info:hover{
+  color: #fff;
+  background-color: #0099f4;
+  border-color: #16aaff;
+}
+
+.custom-bt-alt{
+  color: #fff;
+  background-color: #794c8a;
+  border-color: #794c8a;
+}
+
+.custom-bt-alt:hover{
+  color: #fff;
+  background-color: #714781;
+  border-color: #794c8a;
+}
+
+.custom-bt-danger{
+  color: #fff;
+  background-color: #d92550;
+  border-color: #d92550;
+
+}
+.custom-bt-danger:hover{
+  color: #fff;
+  background-color: #b41f44;
+  border-color: #d92550;
+
+}
